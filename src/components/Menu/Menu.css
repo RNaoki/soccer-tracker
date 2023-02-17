@@ -1,0 +1,20 @@
+.menu-conatiner {
+ position: absolute;
+ height: calc(100% - 75px);
+ width: 200px;
+ background-color: aliceblue;
+ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+ z-index: 2;
+}
+
+.menu-text {
+ font-family: 'Righteous', cursive;
+ font-size: 20px;
+ color: #1b4ca1;
+ text-decoration: none;
+}
+
+.menu-item {
+ padding: 10px;
+ border-bottom: 1px solid #BCBCBC;
+}

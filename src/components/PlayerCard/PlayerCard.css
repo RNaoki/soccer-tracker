@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+.card-container {
+ background-size: cover;
+ height: 340px;
+ width: 220px;
+ align-self: center;
+ margin: 24px;
+ position: relative;
+}
+
+.card-info {
+ display: flex;
+ flex-direction: column;
+ position: absolute;
+ top: 54%;
+ align-items: center;
+ width: 80%;
+ margin-left: 11%;
+}
+
+.card-details {
+ display: flex;
+ flex-direction: column;
+ position: absolute;
+ top: 15%;
+ align-items: center;
+ margin-left: 21%;
+}
+
+.card-stats {
+ display: flex;
+ flex-direction: row;
+ margin-top: 5%;
+ justify-content: space-between;
+ width: 70%;
+}
+
+.card-name {
+ font-family: 'Noto Sans', sans-serif;
+ font-weight: 700;
+ color: aliceblue;
+ font-size: 15px;
+}
+
+.card-avrg {
+ font-family: 'Noto Sans', sans-serif;
+ font-weight: 700;
+ color: aliceblue;
+ font-size: 24px;
+}
+
+.card-stat {
+ font-family: 'Noto Sans', sans-serif;
+ font-weight: 700;
+ color: aliceblue;
+ font-size: 13px;
+ margin: 2px;
+}
+
+.card-position { 
+ font-family: 'Noto Sans', sans-serif;
+ font-weight: 400;
+ color: aliceblue;
+ font-size: 20px;
+ margin-top: -5px;
+}
+
+.flag {
+ position: absolute;
+ margin-left: -2px;
+ height: 22px;
+ bottom: -47.5%
+}
+
+.card-container:hover {
+ height: 380px;
+ width: 240px;
+ margin: 14px;
+ margin-top: -10px;
+}
+
+.card-container:hover .flag {
+ bottom: -64.5%;
+ margin-left: 5px;
+ height: 24px;
+}
+
+.card-container:hover .card-stats {
+ display: flex;
+ flex-direction: row;
+ margin-top: 8%;
+ justify-content: space-between;
+ width: 70%;
+}
+
+.card-container-xl {
+ background-size: cover;
+ height: 580px;
+ width: 400px;
+ align-self: center;
+ position: relative;
+}
+
+.card-info-xl {
+ display: flex;
+ flex-direction: column;
+ position: absolute;
+ top: 54%;
+ align-items: center;
+ width: 80%;
+ margin-left: 39px;
+}
+
+.card-details-xl {
+ display: flex;
+ flex-direction: column;
+ position: absolute;
+ top: 16%;
+ align-items: center;
+ margin-left: 77px;
+}
+
+.card-stats-xl {
+ display: flex;
+ flex-direction: row;
+ margin-top: 5%;
+ justify-content: space-between;
+ width: 70%;
+}
+
+.card-name-xl {
+ font-family: 'Noto Sans', sans-serif;
+ font-weight: 700;
+ color: aliceblue;
+ font-size: 30px;
+}
+
+.card-avrg-xl {
+ font-family: 'Noto Sans', sans-serif;
+ font-weight: 700;
+ color: aliceblue;
+ font-size: 44px;
+}
+
+.card-stat-xl {
+ font-family: 'Noto Sans', sans-serif;
+ font-weight: 700;
+ color: aliceblue;
+ font-size: 23px;
+ margin: 2px;
+}
+
+.card-position-xl { 
+ font-family: 'Noto Sans', sans-serif;
+ font-weight: 400;
+ color: aliceblue;
+ font-size: 40px;
+ margin-top: -15px;
+}
+
+.flag-xl {
+ position: absolute;
+ margin-left: -2px;
+ height: 40px;
+ bottom: -44.5%
+}
+
